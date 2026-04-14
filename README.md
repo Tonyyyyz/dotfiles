@@ -16,8 +16,9 @@
 # Preview
 ![Preview](./screenshot.png)
 
-# How install?🤔t
-'git clone https://github.com/Tonyyyyz/dotfiles.git'
-'cd dotfiles'
-'chmod u+x install.sh'
-'./install.sh'
+# How install?🤔
+```bash
+git clone https://github.com/Tonyyyyz/dotfiles.git
+cd dotfiles
+chmod u+x install.sh
+./install.sh
