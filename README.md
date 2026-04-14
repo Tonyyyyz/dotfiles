@@ -14,4 +14,10 @@
 * **Terminal** 'Kitty'
 
 # Preview
-[![Preview](./screenshot.png)]
+![Preview](./screenshot.png)
+
+# How install?🤔
+git clone https://github.com/Tonyyyyz/dotfiles.git
+   cd dotfiles
+   chmod u+x install.sh
+   ./install.sh
