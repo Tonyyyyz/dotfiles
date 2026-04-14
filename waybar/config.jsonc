@@ -1,0 +1,26 @@
+{
+    "layer": "top",
+    "position": "top",
+    "modules-left": [],
+    "modules-center": ["tray"],
+    "modules-right": ["clock", "battery", "custom/power"],
+
+    "tray": {
+    "spacing": 8
+},
+
+  },
+
+
+    {
+
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "interval": 10
+    },
+
+    "clock": {
+        "format": " {:%H:%M}"
+  }
+}
