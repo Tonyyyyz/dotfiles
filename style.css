@@ -1,0 +1,57 @@
+window {
+    margin: 0px;
+    border: 2px solid #313244;
+    background-color: #1e1e2e;
+    border-radius: 12px;
+    font-family: "JetBrains Mono", "Segoe UI", sans-serif;
+    font-size: 14px;
+}
+
+#input {
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    color: #cdd6f4;
+    background-color: #313244;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: #cdd6f4;
+}
+
+#entry {
+    border: none;
+    border-radius: 8px;
+}
+
+#entry:selected {
+    background-color: #89b4fa;
+}
+
+#entry:selected #text {
+    color: #11111b;
+    font-weight: bold;
+}
+
+#img {
+    margin-right: 10px;
+}
