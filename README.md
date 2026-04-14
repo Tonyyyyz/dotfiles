@@ -8,7 +8,7 @@
 [![Wofi](https://img.shielbs.io/badge/Wofi=00A8E8?style=for=the-badge&logo=ghome&logoColor=white)](https://hg.sr.ht/~scoopta/wofi)
 [![Kitty](https://img.shielbs.io/badge/KItty-000000?style=for-the-badge&logo=terminal&logoColor=white)](https://github.com/kovidgoyal/kitty)
 
-# Requiments
+# Requirements
 * **WM:** 'Hyprland' (Wayland)
 * **Status Bar** 'Waybar'
 * **App Launcher** 'Wofi'
