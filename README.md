@@ -10,7 +10,7 @@
 
 * **WM:** 'Hyprland' (Wayland)
 * **Status Bar** 'Waybar'
-* **App Launcher** 'WOfi'
+* **App Launcher** 'Wofi'
 * **Terminal** 'Kitty'
 
 # Preview
