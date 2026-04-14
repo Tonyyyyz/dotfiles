@@ -1,0 +1,112 @@
+
+@define-color bg      #111116;
+@define-color surface #1c1c24;
+@define-color border  #2e2e3d;
+@define-color accent  #e8a045;
+@define-color text    #dcd8cc;
+@define-color sub     #6a6a80;
+@define-color red     #e05c5c;
+@define-color green   #6ec98f;
+@define-color yellow  #e8c94a;
+@define-color white   #FFFFFF;
+
+/* ── Base ────────────────────────────────────────────────── */
+* {
+    font-family: "JetBrains Mono", "Iosevka", monospace;
+    font-size: 13px;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: @text;
+}
+
+
+.modules-left,
+.modules-center,
+.modules-right {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+/* ── Общий стиль островка ────────────────────────────────── */
+#clock,
+#battery,
+#tray,
+
+
+#clock {
+    color: @white;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+}
+
+#clock:hover {
+    background: @bg;
+    border-color: @accent;
+}
+
+
+#battery {
+    color: @green;
+}
+
+#battery:hover {
+    background: @bg;
+    border-color: @border;
+}
+
+#battery.warning:not(.charging) {
+    color: @yellow;
+}
+
+#battery.critical:not(.charging) {
+    color: @red;
+    border-color: @red;
+    animation: blink 1s linear infinite;
+}
+
+#battery.charging {
+    color: @accent;
+}
+
+@keyframes blink {
+    50% { opacity: 0.45; }
+}
+
+
+#tray {
+    padding: 4px 10px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background: alpha(@red, 0.15);
+    border-radius: 6px;
+}
+
+
+
+tooltip {
+    background: @surface;
+    border: 1px solid @border;
+    border-radius: 10px;
+    color: @text;
+    padding: 6px 12px;
+    box-shadow: 0 4px 16px alpha(#000, 0.5);
+}
+
+tooltip label {
+    color: @text;
+    font-size: 12px;
+}
