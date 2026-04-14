@@ -13,22 +13,6 @@ export VISUAL='nvim'
 alias c='clear'
 alias f='fastfetch'
 alias vim='nvim'
-󱄅 ~ > cat .zshrc
-#============================================================
-#Exports
-#============================================================
-
-export EDITOR='nvim'
-export VISUAL='nvim'
- 
-#============================================================
-#Aliases
-#============================================================
-
-
-alias c='clear'
-alias f='fastfetch'
-alias vim='nvim'
 #alias upd='sudo nixos-rebuild switch'
 #alias upd='sudo apt update && apt upgrade'
 #alias upd='sudo pacman -Syu'
