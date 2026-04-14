@@ -14,4 +14,4 @@
 * **Terminal** 'Kitty'
 
 # Preview
-[![Screenshot](https://raw.githubusercontet.com/Tonyyyyz/dotfiles/main/screenshot.png)]
+[![Preview](./screenshot.png)]
