@@ -48,7 +48,7 @@ alias temp='watch -n 1 sensors'
 # PROMPT='%F{cyan}󰣇  %F{white}%F{blue}%~%F{white} %F{cyan}󰁔%f ' for Arch Linux
 # PROMPT='%F{green}  %F{white}%F{green}%~%F{white} %F{green}»%f ' for openSUSE
 # PROMPT='%F{blue}  %F{white}%F{cyan}%~%F{white} %F{blue}󰧞%f ' for Alpine linux
-# PROMPT='%F{green}  %F{white}%F{yellow}%~%F{white} %F{green}⬢%f ' for Void LInux
+# PROMPT='%F{green}  %F{white}%F{yellow}%~%F{white} %F{green}⬢%f ' for Void Linux
 # PROMPT='%F{blue}  %F{white}%F{blue}%~%F{white} %F{blue}%f ' for Fedora Linux
 
 
